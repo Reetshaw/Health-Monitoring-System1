@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
-df = pd.read_csv("C:/Users/Reet Shaw/Downloads/archive/heart.csv")
+df = pd.read_csv("C:/Users/Reet Shaw/Downloads/Datasets/heart.csv")
 print(df.head())
 print(df.info())
 df_encoded = pd.get_dummies(df, drop_first=True)
